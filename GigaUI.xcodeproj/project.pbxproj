@@ -11,6 +11,13 @@
 		EDB550F52830C50700981DD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB550F42830C50700981DD6 /* ContentView.swift */; };
 		EDB550F72830C50800981DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB550F62830C50800981DD6 /* Assets.xcassets */; };
 		EDB550FA2830C50800981DD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB550F92830C50800981DD6 /* Preview Assets.xcassets */; };
+		EDB551022830C51F00981DD6 /* WithPrevious in Frameworks */ = {isa = PBXBuildFile; productRef = EDB551012830C51F00981DD6 /* WithPrevious */; };
+		EDB551042830C52C00981DD6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB551032830C52C00981DD6 /* PageViewController.swift */; };
+		EDB551062830C60300981DD6 /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB551052830C60300981DD6 /* TabMenu.swift */; };
+		EDB551082830CC2800981DD6 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB551072830CC2800981DD6 /* CustomFont.swift */; };
+		EDB5510A2830CE3600981DD6 /* ScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB551092830CE3600981DD6 /* ScreenState.swift */; };
+		EDB5510C2830D6C800981DD6 /* SwiftUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5510B2830D6C800981DD6 /* SwiftUICollectionViewCell.swift */; };
+		EDB5510E2830D95000981DD6 /* symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB5510D2830D95000981DD6 /* symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,12 @@
 		EDB550F42830C50700981DD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDB550F62830C50800981DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB550F92830C50800981DD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDB551032830C52C00981DD6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EDB551052830C60300981DD6 /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		EDB551072830CC2800981DD6 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		EDB551092830CE3600981DD6 /* ScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenState.swift; sourceTree = "<group>"; };
+		EDB5510B2830D6C800981DD6 /* SwiftUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICollectionViewCell.swift; sourceTree = "<group>"; };
+		EDB5510D2830D95000981DD6 /* symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB551022830C51F00981DD6 /* WithPrevious in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +67,12 @@
 			children = (
 				EDB550F22830C50700981DD6 /* GigaUIApp.swift */,
 				EDB550F42830C50700981DD6 /* ContentView.swift */,
+				EDB551032830C52C00981DD6 /* PageViewController.swift */,
+				EDB551052830C60300981DD6 /* TabMenu.swift */,
+				EDB551072830CC2800981DD6 /* CustomFont.swift */,
+				EDB551092830CE3600981DD6 /* ScreenState.swift */,
+				EDB5510B2830D6C800981DD6 /* SwiftUICollectionViewCell.swift */,
+				EDB5510D2830D95000981DD6 /* symbols.swift */,
 				EDB550F62830C50800981DD6 /* Assets.xcassets */,
 				EDB550F82830C50800981DD6 /* Preview Content */,
 			);
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = GigaUI;
+			packageProductDependencies = (
+				EDB551012830C51F00981DD6 /* WithPrevious */,
+			);
 			productName = GigaUI;
 			productReference = EDB550EF2830C50700981DD6 /* GigaUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = EDB550E62830C50700981DD6;
+			packageReferences = (
+				EDB551002830C51F00981DD6 /* XCRemoteSwiftPackageReference "swift-with-previous" */,
+			);
 			productRefGroup = EDB550F02830C50700981DD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB5510C2830D6C800981DD6 /* SwiftUICollectionViewCell.swift in Sources */,
+				EDB5510E2830D95000981DD6 /* symbols.swift in Sources */,
+				EDB551082830CC2800981DD6 /* CustomFont.swift in Sources */,
+				EDB5510A2830CE3600981DD6 /* ScreenState.swift in Sources */,
+				EDB551062830C60300981DD6 /* TabMenu.swift in Sources */,
+				EDB551042830C52C00981DD6 /* PageViewController.swift in Sources */,
 				EDB550F52830C50700981DD6 /* ContentView.swift in Sources */,
 				EDB550F32830C50700981DD6 /* GigaUIApp.swift in Sources */,
 			);
@@ -339,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDB551002830C51F00981DD6 /* XCRemoteSwiftPackageReference "swift-with-previous" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ikesyo/swift-with-previous";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDB551012830C51F00981DD6 /* WithPrevious */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDB551002830C51F00981DD6 /* XCRemoteSwiftPackageReference "swift-with-previous" */;
+			productName = WithPrevious;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDB550E72830C50700981DD6 /* Project object */;
 }

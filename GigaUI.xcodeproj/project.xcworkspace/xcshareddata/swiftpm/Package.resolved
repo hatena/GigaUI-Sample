@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-with-previous",
+        "repositoryURL": "https://github.com/ikesyo/swift-with-previous",
+        "state": {
+          "branch": null,
+          "revision": "c713d9c04b9ab0a1e896ddba7417d7e0bac9ac47",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

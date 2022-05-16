@@ -108,9 +108,10 @@ class CollectionViewController: UICollectionViewController {
             VStack {
                 Image(systemName: systemName)
                     .resizable()
-                    .aspectRatio(1, contentMode: .fit)
+                    .aspectRatio(contentMode: .fit)
                 Text(systemName)
             }
+            .aspectRatio(1, contentMode: .fit)
         }
     }
 
